@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "Backend of Project Riff-Share",
+  "main": "app.js",
+  "scripts": {
+    "test": "start project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PACFWL/Project-Riff_Share.git"
+  },
+  "keywords": [
+    "Musica;",
+    "Cifra;",
+    "Tablatura;",
+    "Partitura"
+  ],
+  "author": "Ernesto; Gustavo; Leornado; Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PACFWL/Project-Riff_Share/issues"
+  },
+  "homepage": "https://github.com/PACFWL/Project-Riff_Share#readme"
+}

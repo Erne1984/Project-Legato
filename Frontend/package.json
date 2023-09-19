@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "Frontend of Project Riff-Share",
+  "main": "app.js",
+  "scripts": {
+    "test": "start project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PACFWL/Project-Riff_Share.git"
+  },
+  "keywords": [
+    "Musica;",
+    "Cifra"
+  ],
+  "author": "Ernesto; Gustavo; Leornado; Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PACFWL/Project-Riff_Share/issues"
+  },
+  "homepage": "https://github.com/PACFWL/Project-Riff_Share#readme"
+}
