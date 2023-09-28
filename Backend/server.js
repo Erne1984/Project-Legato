@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const cookieSession = require("cookie-session");
 
-const db = require("./app/models/login/index");
+const db = require("./app/models/login/index.js");
 const Role = db.role;
 
 const app = express();
