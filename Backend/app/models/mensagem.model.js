@@ -5,7 +5,8 @@ const Schema = mongoose.Schema;
 const Comentarios = new Schema({
    
     autor: {
-        type: String, 
+        type: mongoose.Types.ObjectId,
+        ref: 'User',
         required: true,
     },
     conteudo:{

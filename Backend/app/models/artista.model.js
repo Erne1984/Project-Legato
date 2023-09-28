@@ -25,5 +25,5 @@ const Artista = new Schema({
   
 })
 
-const artista = mongoose.model("artista", Artista)
+export const artista = mongoose.model("artista", Artista)
 

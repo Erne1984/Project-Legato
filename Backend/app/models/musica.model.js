@@ -5,16 +5,17 @@ var d = new Date();
 
 const Musica = new Schema({
 
-    titulo:{
-        type:String,
-        required:true
-    },
-    autoria:{
+    titulo: {
         type: String,
-        required:true
+        required: true
+    },
+    autoria: {
+        type: mongoose.Types.ObjectId,
+        ref: 'artista',
+        required: true
     },
     data: {
-        type: String, 
+        type: String,
         default: d.toLocaleDateString()
     }
 })
