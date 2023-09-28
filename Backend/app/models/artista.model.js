@@ -14,7 +14,7 @@ const Artista = new Schema({
     seguidores:[{
         seguidor: {
             type: mongoose.Types.ObjectId,
-            ref: 'usuario'
+            ref: 'User'
         },
         done: Boolean
     }],
