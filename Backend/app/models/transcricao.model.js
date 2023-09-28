@@ -4,10 +4,7 @@ const Schema = mongoose.Schema;
 var d = new Date();
 
 const Transcricao = new Schema({
-    id_transcricao:{
-        type: Number,
-        required: true
-    },
+
     nome_musica: {
         type: String, 
         required: true,

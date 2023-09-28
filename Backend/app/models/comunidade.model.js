@@ -3,10 +3,7 @@ const Schema = mongoose.Schema;
 
 
 const Comunidade = new Schema({
-    id_comunidade:{
-        type: Number,
-        required: true
-    },
+   
     nome:{
         type:String,
         required:true
