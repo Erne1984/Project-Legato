@@ -3,10 +3,6 @@ const Schema = mongoose.Schema;
 
 
 const Artista = new Schema({
-    id_artista:{
-        type: Number,
-        required: true
-    },
     nome:{
         type:String,
         required:true
@@ -15,10 +11,13 @@ const Artista = new Schema({
         type:Boolean,
         required:true
     },
-    seguidores:{
-        type: Schema,
-        required: true
-    },
+    seguidores:[{
+        seguidor: {
+            type: mongoose.Types.ObjectId,
+            ref: 'User'
+        },
+        done: Boolean
+    }],
     sobre:{
         type: String,
         required:true

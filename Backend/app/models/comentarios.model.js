@@ -3,10 +3,7 @@ const Schema = mongoose.Schema;
 
 
 const Comentarios = new Schema({
-    id_comentario:{
-        type: Number,
-        required: true
-    },
+
     autor: {
         type: Date, 
         required: true,

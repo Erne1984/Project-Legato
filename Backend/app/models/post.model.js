@@ -3,10 +3,7 @@ const Schema = mongoose.Schema;
 
 
 const Comunidade = new Schema({
-    id_post:{
-        type: Number,
-        required: true
-    },
+
     data_criacao: {
         type: Date, 
         required: true,
