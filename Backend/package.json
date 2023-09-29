@@ -1,14 +1,14 @@
 {
   "name": "backend",
   "version": "0.0.1",
-  "description": "Backend of Project Riff-Share",
+  "description": "Backend of Project Legato",
   "main": "app.js",
   "scripts": {
     "test": "start project"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PACFWL/Project-Riff_Share.git"
+    "url": "git+https://github.com/PACFWL/Project-Legato.git"
   },
   "keywords": [
     "Musica;",
@@ -19,17 +19,17 @@
   "author": "Ernesto; Gustavo; Leornado; Pablo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PACFWL/Project-Riff_Share/issues"
+    "url": "https://github.com/PACFWL/Project-Legato/issues"
   },
-  "homepage": "https://github.com/PACFWL/Project-Riff_Share#readme",
+  "homepage": "https://github.com/PACFWL/Project-Legato#readme",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cookie-session": "^2.0.0",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongodb": "^6.1.0",
-    "mongoose": "^7.5.3",
-    "zod": "^3.22.2"
+    "bcryptjs": "2.4.3",
+    "cookie-session": "2.0.0",
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "jsonwebtoken": "9.0.2",
+    "mongodb": "6.1.0",
+    "mongoose": "7.5.3",
+    "zod": "3.22.2"
   }
 }
