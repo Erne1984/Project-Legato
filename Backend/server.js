@@ -46,7 +46,7 @@ app.listen(PORT, () => {
 
 
 db.mongoose
-  .connect(`mongodb://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`, {
+  .connect(`mongodb://${db.HOST}:${db.PORT}/${db.DB}`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
