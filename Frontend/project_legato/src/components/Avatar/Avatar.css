@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container{
+    margin: 5px;
+}
+
+.perfil-box{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.topo{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #6a5acd;
+    height: 90px;
+}
+
+.perfil{
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid white;
+    top: 23px;
+    height: 105px;
+    width: 105px;
+}
