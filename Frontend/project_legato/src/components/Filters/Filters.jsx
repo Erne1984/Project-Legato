@@ -1,12 +1,12 @@
 import React from "react";
 
 import './Filters.css'
-
+import MenuHamburger from '../../assets/Hamburger_menu.png';
 
 const Filters = () => {
     return (
         <aside className="container-filtro">
-
+            <img src={MenuHamburger} className="menu-hamburger" alt="" />
             <div className="box-filtro">
                 <h3 className="titulos">Filtros</h3>
 
