@@ -8,12 +8,27 @@ import Avatar from "../../components/Avatar/Avatar";
 
 const Home = () => {
 
-    const artistsUrls = [
-        "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
-        "https://s2.glbimg.com/dM9cq_LH67iIUqE6cRlTfz5sJ3g=/620x465/s2.glbimg.com/iPMxmXl_eZo8-q6IudQW_A4RGT4=/620x465/s.glbimg.com/jo/g1/f/original/2016/08/18/metallica_foto.jpg",
-        "https://i.scdn.co/image/ab6761610000e5ebdd353edbce04267bff979de6",
-        "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/06/Chico-Buarque-por-Francisco-Proner-.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrH3Aw3FhbxhpgvA9q_gJRst7bHa29r6sYyg&usqp=CAU"
+    const artistsUrls = [{
+        url: "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433",
+        name: "Beatles"
+    },
+    {
+        url: "https://s2.glbimg.com/dM9cq_LH67iIUqE6cRlTfz5sJ3g=/620x465/s2.glbimg.com/iPMxmXl_eZo8-q6IudQW_A4RGT4=/620x465/s.glbimg.com/jo/g1/f/original/2016/08/18/metallica_foto.jpg",
+        name: "Metallica"
+    },
+    {
+        url: "https://i.scdn.co/image/ab6761610000e5ebdd353edbce04267bff979de6",
+        name: "Polyphia"
+    },
+    {
+        url: "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/06/Chico-Buarque-por-Francisco-Proner-.jpg",
+        name: "Chico Buarque"
+    }
+        ,
+    {
+        url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrH3Aw3FhbxhpgvA9q_gJRst7bHa29r6sYyg&usqp=CAU",
+        name: "Chico Buarque"
+    }
     ]
 
     const communitiesUrls = [
@@ -42,8 +57,8 @@ const Home = () => {
                         <a href=""><h5>Ver top</h5></a>
                     </div>
                     <div className="list-imgs">
-                        {artistsUrls.map((artista, index) => ( 
-                            <Avatar key={index} avatarUrl={artista} /> 
+                        {artistsUrls.map((artista, index) => (
+                            <Avatar key={index} avatarUrl={artista.url} name={artista.name} />
                         ))}
                     </div>
                 </div>
@@ -55,7 +70,7 @@ const Home = () => {
                     </div>
                     <div className="list-imgs">
                         {communitiesUrls.map((artista, index) => (
-                            <Avatar key={index} avatarUrl={artista} /> 
+                            <Avatar key={index} avatarUrl={artista} />
                         ))}
                     </div>
                 </div>

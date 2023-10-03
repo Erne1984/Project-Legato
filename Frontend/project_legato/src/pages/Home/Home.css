@@ -1,6 +1,6 @@
 .home-container {
     display: flex;
-    gap: 25px;
+    gap: 40px;
 }
 
 .content {
@@ -24,4 +24,5 @@
 .list-imgs{
     display: flex;
     justify-content: space-between;
+    padding: 2% 0;
 }
