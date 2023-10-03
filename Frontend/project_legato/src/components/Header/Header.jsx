@@ -1,6 +1,7 @@
 import React from "react";
-import './Header.css'
-
+import './Header.css';
+import Logo from '../../assets/logo.svg';
+import UserIcon from '../../assets/user.svg';
 import SearchIcon from '@mui/icons-material/Search';
 
 const Header = () => {
@@ -11,7 +12,7 @@ const Header = () => {
             <div className="menu-logo-pesquisa">
 
                 <div className="logo-box">
-                    <img src="/images/logo.svg" alt="Logo legato" className="logo"></img>
+                    <img src={Logo} alt="Logo legato" className="logo"></img>
                 </div>
 
                 <div className="barra-pesquisa-box">
@@ -32,7 +33,7 @@ const Header = () => {
                 </ul>
 
                 <div className="perfil-pessoal">
-                    <img src="/images/user.svg"></img>
+                    <img src={UserIcon}></img>
                 </div>
 
             </div>
