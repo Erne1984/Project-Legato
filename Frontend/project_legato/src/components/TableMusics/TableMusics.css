@@ -28,6 +28,11 @@
     margin-left: 10px;
 }
 
+.table-filtros li:hover{
+    color: #FFF;
+    cursor: pointer;
+}
+
 .table {
     width: 100%;
     padding: 10px;

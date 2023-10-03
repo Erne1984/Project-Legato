@@ -1,12 +1,20 @@
-.home-container{
+.home-container {
     display: flex;
-    gap:25px;
+    gap: 25px;
 }
 
-.content{
+.content {
     flex-direction: column;
 }
 
-.content h2{
+.title-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 2% 0;
+}
+
+.title-header a{
+    color: #28A49C;
+    text-decoration: none;
 }
