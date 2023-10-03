@@ -9,11 +9,12 @@ const Home = () => {
     return (
 
         <main className="home-container">
-
             <Filters />
-
+            <div className="content">
+            <h2>Músicas mais acessadas</h2>
             <TableMusics></TableMusics>
-
+            <h2>Artistas mais acessados</h2>
+            </div>
         </main>
     )
 }

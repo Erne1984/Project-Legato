@@ -11,11 +11,15 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 5%;
 }
 
 .block {
+    display: flex;
+    flex-direction: column;
     width: 180px;
     padding: 10px;
+    gap: 5px;
 }
 
 .item-filtro {
