@@ -1,16 +1,20 @@
 import React from "react";
-import Header from "../../components/Header/Header";
+import './Home.css';
 
 import Filters from "../../components/Filters/Filters";
+import TableMusics from "../../components/TableMusics/TableMusics";
+
 
 const Home = () => {
     return (
 
-        <div>
+        <main className="home-container">
 
             <Filters />
 
-        </div>
+            <TableMusics></TableMusics>
+
+        </main>
     )
 }
 
