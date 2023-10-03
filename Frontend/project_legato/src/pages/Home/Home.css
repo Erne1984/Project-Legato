@@ -12,6 +12,8 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 2% 0;
+    align-items: center;
+
 }
 
 .title-header a{
