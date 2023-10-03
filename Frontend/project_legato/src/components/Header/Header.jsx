@@ -7,7 +7,7 @@ import SearchIcon from '@mui/icons-material/Search';
 const Header = () => {
 
     return (
-        <header className="container">
+        <header className="container-header">
 
             <div className="menu-logo-pesquisa">
 

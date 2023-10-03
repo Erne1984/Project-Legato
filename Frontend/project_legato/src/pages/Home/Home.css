@@ -20,3 +20,8 @@
     color: #28A49C;
     text-decoration: none;
 }
+
+.list-imgs{
+    display: flex;
+    justify-content: space-between;
+}

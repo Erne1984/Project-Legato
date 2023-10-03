@@ -1,16 +1,12 @@
 import React from 'react';
 import "./Avatar.css";
 
-const Avatar = ({ avatarUrl, userName, children }) => {
+const Avatar = ({ avatarUrl, name }) => {
     return(
-        <div className='container'>
+        <div className='container-avatar'>
             <div className='perfil-box'>
-
-                <div className='topo'>
-                    <img className='perfil' src={avatarUrl} alt={userName}></img>
-                </div>
-
-                {children}
+                    <img className='perfil' src={avatarUrl} alt={name}></img>
+                    <p>{name}</p>
             </div>
         </div>
     )
