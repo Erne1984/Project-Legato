@@ -7,6 +7,7 @@ import Explorar from './pages/Explorar/Explorar';
 
 import './App.css';
 import Perfil from './components/Perfil/Perfil';
+import Transcricao from './pages/Transcricao/Transcricao';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/" element={ <Home/> } />
       <Route path="/Explorar" element={ <Explorar/> } />
       <Route path="/Perfil" element={ <Perfil/> } />
+      <Route path={`/transcricao`} element={ <Transcricao/> } />
 
     </Routes>
     <Footer/>
