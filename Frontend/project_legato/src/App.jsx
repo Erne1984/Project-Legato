@@ -6,7 +6,8 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Explorar from './pages/Explorar/Explorar';
 import Perfil_Usuario from './pages/Perfil_Usuario/Perfil_Usuario';
-
+import './App.css';
+import Transcricao from './pages/Transcricao/Transcricao';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/" element={ <Home/> } />
       <Route path="/Explorar" element={ <Explorar/> } />
       <Route path="/Perfil" element={ <Perfil_Usuario/> } />
+      <Route path={`/transcricao`} element={ <Transcricao/> } />
 
     </Routes>
     <Footer/>

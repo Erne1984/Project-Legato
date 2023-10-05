@@ -1,0 +1,33 @@
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+}
+
+.actions-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.actions-buttons li{
+    padding: 5px;
+}
+
+.btn-li{
+
+    width: 100%;
+}
+
+.btn-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #9E9E9E;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 600;
+    color: #424242;
+    padding: 3px 0;
+}
