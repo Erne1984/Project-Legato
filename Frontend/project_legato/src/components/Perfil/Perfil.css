@@ -10,9 +10,23 @@
 .background + aside{
     background-color: #28A49C;
     list-style: none;
-    color: #FFFFFF;
     width: 15%;
     padding: 2% 0;
     display: flex;
     justify-content: center;
+}
+
+.background + aside span{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem 0;
+}
+
+.background + aside li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.background + aside li a:hover{
+   font-weight: bold;
 }

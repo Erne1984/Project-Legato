@@ -9,10 +9,10 @@ const Perfil = () => {
             <img className="background" src={Wallpaper} alt="" />
             <aside>
                 <span>
-                    <li>Todas</li>
-                    <li>Cifras</li>
-                    <li>Tablaturas</li>
-                    <li>Partituras</li>
+                    <li><a href="">Todas</a></li>
+                    <li><a href="">Cifras</a></li>
+                    <li><a href="">Tablaturas</a></li>
+                    <li><a href="">Partituras</a></li>
                 </span>
             </aside>
         </>
