@@ -5,10 +5,8 @@ import './Perfil.css';
 
 const Perfil = () => {
     return (
-        <main>
-            <div className='background'>
-                <img src={Wallpaper} alt="" />
-            </div>
+        <>
+            <img className="background" src={Wallpaper} alt="" />
             <aside>
                 <span>
                     <li>Todas</li>
@@ -17,7 +15,7 @@ const Perfil = () => {
                     <li>Partituras</li>
                 </span>
             </aside>
-        </main>
+        </>
     )
 }
 

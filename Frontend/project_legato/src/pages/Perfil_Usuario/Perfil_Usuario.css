@@ -1,0 +1,11 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    background-color: #FFFFFF;
+}
+
+.Perfil_usuario {
+    display: flex;
+    flex-wrap: wrap;
+}

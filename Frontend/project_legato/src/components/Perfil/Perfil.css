@@ -1,13 +1,10 @@
-.background{
-    padding-bottom: 15%;
-}
 
-.background img {
+.background {
     width: 100%;
-    position: absolute;
-    z-index: -1;
+    height: 20rem;
+    background-size: cover;
     object-fit: cover;
-    margin: -10% 0px 0px 0px;
+    object-position: 100% 10%;
 }
 
 .background + aside{
