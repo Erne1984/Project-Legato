@@ -15,7 +15,7 @@ const Explorar = () => {
                     <h2>Explore nosso catálogo</h2>
                     <a href=""><h5>Mais populares</h5></a>
                 </div>
-                <TableMusics></TableMusics>
+                <TableMusics/>
             </div>
         </main>
     )

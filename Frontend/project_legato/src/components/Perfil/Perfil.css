@@ -1,0 +1,21 @@
+.background{
+    padding-bottom: 15%;
+}
+
+.background img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    margin: -10% 0px 0px 0px;
+}
+
+.background + aside{
+    background-color: #28A49C;
+    list-style: none;
+    color: #FFFFFF;
+    width: 15%;
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+}

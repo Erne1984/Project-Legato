@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Explorar from './pages/Explorar/Explorar';
 
 import './App.css';
+import Perfil from './components/Perfil/Perfil';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Routes>
       <Route path="/" element={ <Home/> } />
       <Route path="/Explorar" element={ <Explorar/> } />
+      <Route path="/Perfil" element={ <Perfil/> } />
 
     </Routes>
     <Footer/>
