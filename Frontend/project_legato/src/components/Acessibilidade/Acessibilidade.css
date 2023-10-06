@@ -1,0 +1,11 @@
+.Acessibilidade{
+    background-color: #cccccc;
+}
+
+.Acessibilidade span ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    grid: 0%;
+    justify-content: space-evenly;
+}

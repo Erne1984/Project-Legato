@@ -7,12 +7,14 @@ import Home from './pages/Home/Home';
 import Explorar from './pages/Explorar/Explorar';
 import Perfil_Usuario from './pages/Perfil_Usuario/Perfil_Usuario';
 import Transcricao from './pages/Transcricao/Transcricao';
+import Acessibilidade from './components/Acessibilidade/Acessibilidade';
 
 function App() {
   return (
   
     <Router>
-    <Header></Header>
+    <Acessibilidade/>
+    <Header/>
     <Routes>
       <Route path="/" element={ <Home/> } />
       <Route path="/Explorar" element={ <Explorar/> } />

@@ -9,17 +9,24 @@
 
 .background + aside{
     background-color: #28A49C;
-    list-style: none;
     width: 15%;
     padding: 2% 0;
-    display: flex;
     justify-content: center;
-}
-
-.background + aside span{
     display: flex;
     flex-direction: column;
+}
+
+aside span{
+    text-align: center;
+
+}
+
+.background + aside span ul{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
     gap: 0.5rem 0;
+    list-style: none;
 }
 
 .background + aside li a{
