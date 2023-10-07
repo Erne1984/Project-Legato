@@ -7,7 +7,7 @@ const Perfil_Usuario = () => {
     return (
         <div className='Perfil_usuario'>
             <Perfil />
-            <main >
+            <main className='container-usuario'>
                 <h2>Pagina</h2>
             </main>
         </div>

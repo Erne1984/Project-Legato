@@ -1,0 +1,14 @@
+.container-transcricao{
+    display: flex;
+}
+
+.side-menu{
+    padding: 2%;
+}
+
+.box-cifra{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    gap: 3%;
+}

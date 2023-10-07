@@ -12,6 +12,7 @@
 
 .actions-buttons li{
     padding: 5px;
+    list-style: none;
 }
 
 .btn-li{

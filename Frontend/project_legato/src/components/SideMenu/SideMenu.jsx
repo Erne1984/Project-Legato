@@ -18,7 +18,7 @@ const SideMenu = () => {
         <aside>
 
             <div className="side-menu">
-                <Avatar avatarUrl={"https://www.nme.com/wp-content/uploads/2018/10/BASEMENT-7-Mitchell-Wojcik.jpg"} />
+                <Avatar avatarUrl={"https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433"} />
 
                 <ul className="actions-buttons">
                     <li className="btn-li"><span className="btn-side"><UnfoldMoreIcon /> Rolagem</span></li>

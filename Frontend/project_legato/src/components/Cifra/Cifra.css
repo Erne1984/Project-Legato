@@ -1,0 +1,48 @@
+.titulo {
+    font-weight: 600;
+}
+
+.sub-titulo {
+    color: #28A49C;
+}
+
+.sub-titulo:hover {
+    cursor: pointer;
+}
+
+
+.cifra-column {}
+
+ 
+
+.cifra-video {
+    display: flex;
+    gap: 2%;
+}
+
+.cifra {
+    margin-top: 60px;
+    tab-size: 4;
+    flex: 1;
+}
+
+.video-box {
+    margin-top: 30px;
+    flex: 1;
+    width: 800px;
+    width: 100%;
+}
+
+.video-box iframe {
+    width: 450px;
+    height: 260px;
+    border-radius: 15px;
+}
+
+
+@media (max-width: 1150px) {
+    .video-box iframe {
+        width: 100%;
+
+    }
+}
