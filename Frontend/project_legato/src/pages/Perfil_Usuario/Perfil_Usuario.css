@@ -12,7 +12,14 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 25px;
-    height: 114px;
+    margin-top:25px ;
+    margin-bottom: 5px;
+ 
+}
+
+.border-bottom {
+    border-bottom: 1px solid #000000;
+    margin: 0 25px;  
 }
 
 .titulo-perfil-usuario {
@@ -35,11 +42,11 @@
     color: #929292;
 }
 
-.box-seguidores .seguindo{
+.box-seguidores .seguindo {
     font-weight: 600;
     font-size: 1.2rem;
     color: #929292;
-} 
+}
 
 .btn-bio {
     display: inline-flex;

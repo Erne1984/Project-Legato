@@ -12,6 +12,7 @@ const Perfil_Usuario = ({ }) => {
             <Perfil />
             <main className='container-usuario'>
                 <div className='header-perfil'>
+                    
 
                     <div className='titulo-perfil-usuario'>
                         <h2 >Bio</h2>
@@ -22,10 +23,12 @@ const Perfil_Usuario = ({ }) => {
                     <div className='box-seguidores'>
                         <span className='seguidores'>0 Seguidores</span>
                         <span className='seguindo'>0 Seguindo</span>
-                        <SettingsIcon/>
+                        <SettingsIcon />
                     </div>
 
                 </div>
+                <div className='border-bottom'></div>
+
 
             </main>
         </div>
