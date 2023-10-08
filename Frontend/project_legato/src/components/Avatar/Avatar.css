@@ -16,6 +16,11 @@
 
 }
 
+.perfil-box p{
+    color: #fff;
+    font-weight: 400;
+}
+
 .topo {
     width: 100%;
     border-radius: 5px;

@@ -9,13 +9,16 @@ const Perfil = () => {
         <>
             <img className="background" src={Wallpaper} alt="" />
             <aside>
-                <Avatar />
+                <div className='imagem-perfil'>
+                    <Avatar avatarUrl="https://effigy.im/a/brantly.eth.svg" name="Usuario" />
+                </div>
                 <span>
                     <ul>
-                        <li><a href="">Todas</a></li>
-                        <li><a href="">Cifras</a></li>
-                        <li><a href="">Tablaturas</a></li>
-                        <li><a href="">Partituras</a></li>
+                        <li><a href="">Perfil</a></li>
+                        <li><a href="">Favoritos</a></li>
+                        <li><a href="">Listas</a></li>
+                        <li><a href="">Contribuições</a></li>
+                        <li><a href="">Mensagens</a></li>
                     </ul>
                 </span>
             </aside>
