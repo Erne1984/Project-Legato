@@ -1,10 +1,60 @@
 .container-usuario {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #FFFFFF;
+    width: 85%;
 }
 
 .Perfil_usuario {
     display: flex;
     flex-wrap: wrap;
+}
+
+.header-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    height: 114px;
+}
+
+.titulo-perfil-usuario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 215px;
+}
+
+.box-seguidores {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 280px;
+}
+
+.box-seguidores .seguidores {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #929292;
+}
+
+.box-seguidores .seguindo{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #929292;
+} 
+
+.btn-bio {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 140px;
+    height: 38px;
+    padding: 0.5rem;
+    background: #28A49C;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.btn-bio span {
+    font-weight: 580;
+    font-size: 1rem;
 }
