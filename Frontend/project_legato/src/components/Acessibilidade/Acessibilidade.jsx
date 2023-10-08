@@ -2,7 +2,7 @@ import React from "react";
 
 import './Acessibilidade.css'
 
-const Acessibilidade = () => {
+const Acessibilidade = ({themeToggler}) => {
     return (
         <div className="Acessibilidade">
             <span>
@@ -10,7 +10,7 @@ const Acessibilidade = () => {
                     <li><a href="">Acessibilidade</a></li>
                     <li><a href="">A-</a></li>
                     <li><a href="">A+</a></li>
-                    <li><a href="">Alto Contraste</a></li>
+                    <li><button onClick={()=> themeToggler()}>Alto Contraste</button></li>
                 </ul>
             </span>
         </div>
