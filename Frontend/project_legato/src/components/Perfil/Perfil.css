@@ -10,7 +10,6 @@
 .background + aside{
     background-color: #28A49C;
     width: 15%;
-    height: 700px;
     display: flex;
     flex-direction: column;
 }
