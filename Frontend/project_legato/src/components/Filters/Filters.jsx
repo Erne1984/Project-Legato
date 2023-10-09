@@ -11,7 +11,7 @@ const Filters = () => {
                 <h3 className="titulos">Filtros</h3>
 
                 <div className="block">
-                    <h4>Dificuldade</h4>
+                    <h4 className="tilte-block">Dificuldade</h4>
 
                     <div className="item-filtro">
                         <input type="checkbox"></input>
@@ -30,7 +30,7 @@ const Filters = () => {
                 </div>
 
                 <div className="block">
-                    <h4>Instrumeto</h4>
+                    <h4 className="tilte-block">Instrumeto</h4>
 
                     <div className="item-filtro">
                         <input type="checkbox"></input>
@@ -59,7 +59,7 @@ const Filters = () => {
 
                 </div>
                 <div className="block">
-                    <h4>Genêro</h4>
+                    <h4 className="tilte-block">Genêro</h4>
 
                     <div className="item-filtro">
                         <input type="checkbox"></input>
