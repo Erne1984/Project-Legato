@@ -6,17 +6,19 @@ import Logo from '../../assets/logo.svg';
 import UserIcon from '../../assets/user.svg';
 import SearchIcon from '@mui/icons-material/Search';
 
-const Header = ({themeToggler}) => {
+const Header = ({ themeToggler }) => {
 
     return (
         <>
-            <Acessibilidade themeToggler={themeToggler}/>
+            <Acessibilidade themeToggler={themeToggler} />
             <header className="container-header">
 
                 <div className="menu-logo-pesquisa">
 
                     <div className="logo-box">
-                        <img src={Logo} alt="Logo legato" className="logo"></img>
+                        <a href="/">
+                            <img src={Logo} alt="Logo legato" className="logo" />
+                        </a>
                     </div>
 
                     <div className="barra-pesquisa-box">
@@ -31,8 +33,8 @@ const Header = ({themeToggler}) => {
                 <div className="menu-perfil">
 
                     <ul className="menu">
-                        <li>Explorar</li>
-                        <li>Comunidades</li>
+                        <li><a href="/Explorar">Explorar</a></li>
+                        <li><a href="/">Comunidades</a></li>
                         <li>Upload</li>
                     </ul>
 

@@ -47,7 +47,7 @@ const Home = () => {
             <div className="content">
                 <div className="title-header">
                     <h2>Músicas mais acessadas</h2>
-                    <a href=""><h5>Ver top</h5></a>
+                    <a href="/Explorar"><h5>Ver top</h5></a>
                 </div>
                 <TableMusics></TableMusics>
 

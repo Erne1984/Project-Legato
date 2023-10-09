@@ -29,7 +29,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/Explorar" element={<Explorar />} />
             <Route path="/Perfil" element={<Perfil_Usuario />} />
-            <Route path={`/transcricao`} element={<Transcricao />} />
+            <Route path={`/Transcricao`} element={<Transcricao />} />
 
           </Routes>
           <Footer />

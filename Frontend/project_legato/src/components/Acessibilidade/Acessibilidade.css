@@ -1,11 +1,21 @@
-.Acessibilidade{
+.Acessibilidade {
     background-color: #cccccc;
+    padding: 0.2% 0;
 }
 
-.Acessibilidade span ul{
+.Acessibilidade span ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     grid: 0%;
     justify-content: space-evenly;
+}
+
+.Acessibilidade button, .Acessibilidade a {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    color:#057770;
+    font-size: 16px;
 }
