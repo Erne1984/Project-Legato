@@ -59,5 +59,39 @@
 }
 
 @media (max-width: 768px) {
-   
+
+
+
+    .table-filtros li {
+        font-size: 0.8rem;
+    }
+
+    .table th {
+        font-size: 0.9rem;
+        width: 78px;
+    }
+
+    .table tr td {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 660px) {
+
+    .table-box {
+        width: 60vw;
+    }
+
+    .table-filtros li {
+        font-size: 0.6rem;
+    }
+
+    .table th {
+        font-size: 0.7rem;
+        
+    }
+
+    .table tr td {
+        font-size: 0.6rem;
+    }
 }
