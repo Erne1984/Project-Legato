@@ -4,6 +4,7 @@ import './Home.css';
 import Filters from "../../components/Filters/Filters";
 import TableMusics from "../../components/TableMusics/TableMusics";
 import Avatar from "../../components/Avatar/Avatar";
+import ModalLogin from "../../components/ModalLogin/ModalLogin";
 
 
 const Home = () => {
@@ -27,7 +28,7 @@ const Home = () => {
         ,
     {
         url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrH3Aw3FhbxhpgvA9q_gJRst7bHa29r6sYyg&usqp=CAU",
-        name: "Chico Buarque"
+        name: "Roger Waters"
     }
     ]
 
@@ -44,14 +45,16 @@ const Home = () => {
 
         <main className="home-container">
             <Filters />
-            <div className="content">
+            <div className="content content-escuro">
                 <div className="title-header">
                     <h2>Músicas mais acessadas</h2>
                     <a href="/Explorar"><h5>Ver top</h5></a>
                 </div>
-                <TableMusics></TableMusics>
+                <div className="container-home">
+                    <TableMusics></TableMusics>
+                </div>
 
-                <div>
+                <div className="container-home">
                     <div className="title-header">
                         <h2>Artistas mais acessados</h2>
                         <a href=""><h5>Ver top</h5></a>
@@ -63,7 +66,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className="container-home">
                     <div className="title-header">
                         <h2>Conheça nossas comunidades</h2>
                         <a href=""><h5>Ir para comunidades</h5></a>
@@ -76,6 +79,7 @@ const Home = () => {
                 </div>
 
             </div>
+            
         </main>
     )
 }

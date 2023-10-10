@@ -1,6 +1,11 @@
 .home-container {
     display: flex;
     gap: 2vw;
+    position: relative;
+}
+
+.content-escuro{
+    
 }
 
 .content {
@@ -27,6 +32,10 @@
 .title-header a {
     color: #28A49C;
     text-decoration: none;
+}
+
+.container-home{
+    margin: 0 0 5% 0;
 }
 
 .list-imgs {
