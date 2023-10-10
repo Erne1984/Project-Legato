@@ -4,10 +4,6 @@
     position: relative;
 }
 
-.content-escuro{
-    
-}
-
 .content {
     flex-direction: column;
 }
@@ -30,7 +26,7 @@
 }
 
 .title-header a {
-    color: #28A49C;
+    color: #01887f;
     text-decoration: none;
 }
 
