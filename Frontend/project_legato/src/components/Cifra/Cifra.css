@@ -3,17 +3,13 @@
 }
 
 .sub-titulo {
-    color: #28A49C;
+    color: #01887f;
 }
 
 .sub-titulo:hover {
     cursor: pointer;
 }
 
-
-.cifra-column {}
-
- 
 
 .cifra-video {
     display: flex;
